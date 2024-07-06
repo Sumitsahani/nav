@@ -1,0 +1,37 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+nav a{
+   font-size: small;
+   text-decoration: none;
+   color: black;
+   font-weight: 500;
+}
+
+.earn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.earn button{
+    margin-left: 2rem;
+    border: 1px solid orange;
+    height: 2.5rem;
+    width: 4rem;
+    background-color: white;
+    border-radius: .5rem;
+    color: orange;
+}
+
+.earn div{
+    color: blueviolet;
+    font-size: small;
+    font-weight: 500;
+}
